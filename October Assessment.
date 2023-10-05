@@ -1,0 +1,30 @@
+#Question 1
+#Student Name: Jack Gillespie.
+
+taylorSwiftSongs = ["Love Story", "Blank Space", "Shake It Off", "Bad Blood", "Delicate", "You Belong With Me", "Wildest Dreams", "Red", "All Too Well", "22" ]
+
+print ("Hello. The the amount of Taylor Swift songs in stock is equal to:",(len(taylorSwiftSongs) ))
+SongChoice = input("Please enter a song of your choice: ")
+if SongChoice in (taylorSwiftSongs):
+    print("You have selected", SongChoice, ".")
+
+#Question 2.
+#Jack Gillespie.
+
+print("Welcome to the Temperature Alert System.")
+Temperature = int(input("Please enter the current temperature: "))
+#This is the opening message and prompt.
+
+
+
+if Temperature < 20:
+    print("Temperature too low. Please turn up heating.")
+elif Temperature  <= 24:
+    print("Temperature within optimal levels.")
+elif Temperature > 24:
+    print("Temperature is too high. Please turn down heating.")
+
+
+#These are the conditions. If the input (Temperature) is too low (<=20), the TAS will let you know. If the input is just right (<24) the TAS will say that's a happy sight.
+    
+#If the temperature is too high (>=24), the TAS will say that  overheating is nigh.
