@@ -1,0 +1,32 @@
+#Note: This calculator can only add and subtract.
+
+#Student Name = Jack Gillespie
+
+Name = input("Please enter your name: ")
+
+print ("Hello,", Name, "\nWelcome to the addition/subtraction calculator.\n")
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+print('Do you wish to (a)dd or (s)ubtract?')
+choice = input()
+
+if choice == 'a' or 'A':
+    addanswer = (num1 + num2)
+    print ("Your final answer is:", num1, "+", num2, "=", addanswer)
+
+elif choice == 's' or 'S':
+    subtractanswer == (num1 - num2)
+    print ("Your final answer is:", num1, "-", num2, "=", subtractanswer)    
+
+else:
+    print("Invalid input")
+
+#Student name = Jack Gillespie
+
+
+numbers list.append = [1, 2 , 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23,]
+list(**2)
+
+print list
