@@ -1,0 +1,27 @@
+#Student Name =Jack Gillespie
+
+
+print("Household budget calculator")
+num_adults = int(input("How many adults are there in the household? "))
+num_child = int(input("How many children are there in the household? "))
+
+food_budget = 300
+cost_food_adult = 50
+cost_food_child = 35
+inflation_rate_input = float(input("Enter current inflation rate: "))
+inflation_rate = (cost_food_adult*num_adults+cost_food_child*num_child)  * (inflation_rate_input)
+
+
+child_allowance = 140
+if num_child > 3:
+    print("Children's allowance total: €", child_allowance*num_child + (20))
+    print("Total household food cost: €", cost_food_adult*num_adults+cost_food_child*num_child,)
+    print("Total household food cost with inflation: €", cost_food_adult*num_adults+cost_food_child*num_child+inflation_rate,)
+    print("Percentage spent on food: ", (cost_food_adult*num_adults+cost_food_child*num_child+inflation_rate) / (child_allowance*num_child + (20) ) * (100), "%")
+    
+else:
+    print("Children's allowance total: €", child_allowance*num_child)
+    print("Total household food cost: €", cost_food_adult*num_adults+cost_food_child*num_child,)
+    print("Total household food cost with inflation: €", cost_food_adult*num_adults+cost_food_child*num_child+inflation_rate,)
+    print("Percentage spent on food: ", (cost_food_adult*num_adults+cost_food_child*num_child+inflation_rate) / (child_allowance*num_child + (20) ) * (100), "%")
+    
