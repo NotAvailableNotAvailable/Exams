@@ -1,0 +1,44 @@
+#print("Random Fruit 1:",random_fruit_1)
+#print("Random Fruit 2:",random_fruit_2)
+#print("Random Fruit 3:",random_fruit_3)
+#(iii)
+#print("First fruit is",random_fruit_1)
+#(iv)
+#(v)
+if (random_fruit_1 and random_fruit_2) == fruits[1]:
+    print("Random Fruit 1:",random_fruit_1)
+    print("Random Fruit 2:",random_fruit_2)
+    print("Random Fruit 3:",random_fruit_3)
+    print("First fruit is",random_fruit_1)
+    print("First pair match!")
+    print("First pair are cherries.")
+
+elif (random_fruit_1 and random_fruit_2) == fruits[2]:
+    print("Random Fruit 1:",random_fruit_1)
+    print("Random Fruit 2:",random_fruit_2)
+    print("Random Fruit 3:",random_fruit_3)
+    print("First fruit is",random_fruit_1)
+    print("First pair match!")
+    print("First pair are oranges.")
+    
+elif (random_fruit_1) and (random_fruit_2) == fruits[0]:
+    print("Random Fruit 1:",random_fruit_1)
+    print("Random Fruit 2:",random_fruit_2)
+    print("Random Fruit 3:",random_fruit_3)
+    print("First fruit is",random_fruit_1)
+    print("First pair match!")
+    print("First pair are apples.")
+
+else:
+     print("Random Fruit 1:",random_fruit_1)
+     print("Random Fruit 2:",random_fruit_2)
+     print("Random Fruit 3:",random_fruit_3)
+#(vi)
+#(vii)
+     
+print("Split Bill Calculator")
+Bill = int(input("How much is the bill? "))
+People = int(input("How many people? "))
+AmountOwing = (Bill / People)
+print("You each owe €",AmountOwing)
+
